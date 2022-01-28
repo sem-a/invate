@@ -1,0 +1,307 @@
+/* font-family: 'Comfortaa', cursive; */
+body {
+    background-image: url(../img/background.png);
+    background-attachment: fixed;
+    background-size: cover;
+}
+main.main {
+    width: 100%;
+    height: 100%;
+}
+.body__container {
+    width: 310px;
+    margin: 0 auto;
+}
+/* Блок велком */
+.block__welcome {
+    height: 844px;
+}
+.welcome__absolute {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.welcome__title h1 {
+    font-size: 48px;
+    font-weight: 700;
+    font-family: 'Comfortaa', cursive;
+    color: #FCEFDC;
+    width: 310px;
+    text-align: center;
+}
+/*********************************/
+/* блок локатион */ 
+.block__location {
+
+}
+.location__title h2{
+    font-size: 48px;
+    font-weight: 700;
+    font-family: 'Comfortaa', cursive;
+    color: #FCEFDC;
+    width: 310px;
+    text-align: right;
+    margin-top: 70px;
+}
+.location__text p {
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Comfortaa', cursive;
+    color: #FCEFDC;
+    width: 273px;
+    text-align: left;
+    margin-top: 50px;
+}
+.location__btn {
+    margin-top: 62px;
+    text-align: right;
+}
+.location__btn a {
+    text-decoration: none;
+    color: #7E7E7E;
+    padding: 12px 16px;
+    background-color: #FCEFDC;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Comfortaa', cursive;
+}
+/*********************************/
+/* Тайм */
+.time__title h2 {
+    font-size: 48px;
+    font-weight: 700;
+    font-family: 'Comfortaa', cursive;
+    color: #FCEFDC;
+    width: 310px;
+    text-align: left;
+    margin-top: 255px;
+}
+.time__visit p{
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Comfortaa', cursive;
+    color: #FCEFDC;
+    text-align: center;
+    margin-top: 55px;
+}
+.time__exit p{
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Comfortaa', cursive;
+    color: #FCEFDC;
+    text-align: center;
+    margin-top: 10px;
+}
+.time__mem {
+    position: relative;
+    width: 310px;
+    height: 200px;
+    margin-top: 190px;
+}
+.mem__image img{
+    width: 310px;
+    margin: 0 auto;
+    position: absolute;
+}
+.mem__text {
+    position: absolute;
+    width: 202px;
+}
+.mem__text p {
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Comfortaa', cursive;
+    color: white;
+    text-transform: uppercase;
+    text-align: left;
+}
+/*********************************/
+/* Пожелания */
+.wishes__title h2 {
+    font-size: 48px;
+    font-weight: 700;
+    font-family: 'Comfortaa', cursive;
+    color: #FCEFDC;
+    width: 310px;
+    text-align: center;
+    margin-top: 225px;
+}
+.wishes__text p{
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Comfortaa', cursive;
+    color: #FCEFDC;
+    text-align: left;
+    margin-top: 50px;
+    width: 303px;
+}
+.wishes__image {
+    text-align: center;
+    margin-top: 25px;
+}
+/*********************************/
+/* Форма */
+.block__form {
+    margin-top: 25px;
+}
+.form__input {
+    height: 40px;
+    padding: 0 20px;
+    border-radius: 5px;
+    width: 255px;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Comfortaa', cursive;
+    transition: all 0.5s ease 0s;
+    background-color: #FCEFDC;
+    color: #7E7E7E;
+    border-radius: 20px;
+    margin-top: 50px;
+}
+.form__label {
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Comfortaa', cursive;
+    color: #FCEFDC;
+}
+.options {
+    padding: 20px 0 0 0;
+}
+.options__item {
+    margin: 0 0 15px 0;
+
+}
+.options__input {
+    display: none;
+}
+
+.options__input:checked + .options__label::after {
+    transform: scale(1);
+}
+.options__label {
+    display: inline-flex;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Comfortaa', cursive;
+    color: #FCEFDC;
+    line-height: 140%;
+    position: relative;
+    align-items: center;
+    cursor: pointer;
+}
+.options__label::before {
+    content: "";
+    flex: 0 0 14px;
+    height: 14px;
+    background-color: #FCEFDC;
+    border-radius: 50%;
+    margin: 0px 10px 0 0;
+}
+.options__label::after {
+    transition: transform 0.3s ease 0s;
+    content: "";
+    position: absolute;
+    align-items: center;
+    left: 3px;
+    width: 8px;
+    height: 8px;
+    background-color: #D6B691;
+    border-radius: 50%;
+    transform: scale(0);
+}
+.form__item-alc {
+    margin-top: 50px;
+}
+.checkbox {
+    margin-top: 40px;
+}
+.checkbox__item {
+    margin-bottom: 20px;
+}
+.checkbox__label {
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Comfortaa', cursive;
+    color: #FCEFDC;
+    padding-left: 24px;
+    position: relative;
+    cursor: pointer;
+}
+.checkbox__input {
+    display: none;
+}
+.checkbox__label::before {
+    content: '';
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    background-color: #FCEFDC;
+    top: 0;
+    left: 0;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.checkbox__label::after {
+    content: '';
+    width: 10px;
+    height: 10px;
+    border-radius: 3px;
+    background-color: #D6B691;
+    position: absolute;
+    z-index: 5;
+    top: 2px;
+    left: 2px;
+    transform: scale(0);
+    transition: all 0.5s ease 0s;
+}
+input.checkbox__input:checked + .checkbox__label::after {
+    transform: scale(1);
+}
+.form__button {
+    margin-top: 50px;
+    min-height: 60px;
+    width: 250px;
+    background-color: #7a956b;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Comfortaa', cursive;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: 20px;
+    box-shadow: 0px 3px #161b13;
+    transition: background-color 0.5s ease 0s;
+    position: relative;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.form__button:active {
+    top: 3px;
+    box-shadow: 0 0px #161b13;
+}
+/****************************/
+/* Блока футер */
+.block__footer {
+    margin-top: 90px;
+    padding-bottom: 300px;
+}
+.footer__image {
+    position: relative;
+}
+
+.footer__text {
+    width: 135px;
+    position: absolute;
+    top: 23px;
+    left: 150px;
+}
+.footer__text p {
+    color: #FCEFDC;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Comfortaa', cursive;
+}
+/*****************************/
